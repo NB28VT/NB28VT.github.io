@@ -1,0 +1,486 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nathan Burgess</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png"  href="asset">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<i class="fas fa-laptop-code"></i>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Nathan Burgess</h1>
+								<p>Full Stack Software Engineer - TypeScript/JavaScript, Python, Ruby, React.js, Ruby on Rails, Django</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">About Me</a></li>
+								<li><a href="#current-projects">WIP Projects</a></li>
+								<li><a href="#past-projects">Past Projects</a></li>
+								<li><a href="#resume">Resume</a></li>
+							</ul>
+						</nav>
+						<ul class="icons">
+							<li><a href="https://github.com/NB28VT" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/burgessnathan/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Current Projects --> 
+							<article id="current-projects">
+								<div class="nb-header">
+									<h1 class="major">Current Projects</h1>
+								</div>
+								
+								<h2 class="minor">Fantasy Fishbowl</h2>
+								<div class="nb-icon-row">
+									<span class="nb-row-image icon"><img src="images/icons8-typescript-50-2.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/icons8-react-native-50.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/rails-logo.png" alt="" /></span>
+								</div>
+								<div class="nb-screenshot-row">
+									<span><img src="images/ffupcoming.png" alt="" /></span>
+									<span><img src="images/ffpredictionfilled.png" alt="" /></span>
+								</div>
+
+								<p>Fantasy Fishbowl is a fantasy sports app with a twist. Instead of predicting sports performance, players try and guess which songs the Vermont rock band Phish will play ahead of a given concert.</p> 
+								
+								<p>Before each performance, players in a league attempt to guess which song the band will open with, which song will end the first set, etc. Players earn points for correctly predicting a song that's played, and extra points if they correctly guess the setlist placement.</p>
+
+								<div class="nb-screenshot-row">
+									<span><img src="images/ffsplashpage.png" alt="" /></span>
+									<span><img src="images/ffsongselect.png" alt="" /></span>
+								</div>
+									
+								<p>Because the band is known for playing a different show every night, trying to spot patterns in where they place songs is sort of like the Phish fan equivalent of baseball statistics, and it's a lot of fun. Fantasy Fishbowl has always been my major personal project, and it's constantly evolved and been overhauled as my skills as a software developer have improved. The current iteration is by far the most complete, and I hope to have all major features working in 2020.</p>
+								
+								<h3>Current Features:</h3>
+								<ul>
+									<li>Mobile-first web interface for viewing upcoming concerts, making predictions, and comparing your score to your friends.</li>
+									<li>Automatic scoring using setlists published after a concert via the <a href="https://phishnet.api-docs.io/v3/the-phish-net-api/welcome" target="_blank">Phish.net fan API.</a></li>
+									<li>An API-only backend built with Rails 5.</li>
+									<li>A React.js front-end written in TypeScript.</li>
+									<li><a href="https://jwt.io/introduction/" target="_blank">JSON Web Token</a> User Authentication.</li>
+								</ul>
+
+								<p>For more information on some of the specific technologies I used, check out the frontend source code on GitHub <a href="https://github.com/NB28VT/fantasy-fishbowl-typescript-client"  target="_blank">here</a>. The backend source code is <a href="https://github.com/NB28VT/fantasy-fishbowl-rails5API"  target="_blank">here.</a></p>
+
+								<h2 class="minor">MBTA Live Departure Board</h2>
+								<div class="nb-image-row nb-logo-row">
+									<span class="nb-row-image icon"><img src="images/icons8-react-native-50.png" alt=""/></span>
+								</div>
+
+								<span class="image fit"><img src="images/departure-board.png" alt="" /></span>
+								<p>I'm building this single-page application as a real-time representation of the train departure board at Boston's South Station terminal. This project is built in React.js and utilizes the powerful Massachusetts Bay Transit Authority developer API and its <a href="https://www.mbta.com/developers/v3-api/streaming" target="_blank">streaming service</a> to consistently update train departure predictions.
+								</p>
+
+								<h3>Current Features:</h3>
+
+								<ul>
+									<li>Predicted departure times, train destinations, train numbers and the status of each trip ("on time", "delayed" etc.)</li>
+									<li>Live updates whenever the MBTA server sends out a "reset" event.</li>
+									<li>A simple live clock.</li>
+								</ul>
+
+								<p>You check it out for yourself <a href="https://mbta-departure-board-nb28vt.herokuapp.com/"  target="_blank">here;</a> the source code is on GitHub <a href="https://github.com/NB28VT/MBTA-Departure-Board"  target="_blank">here.</a></p>
+							</article>
+
+							<article id="past-projects">
+								<div class="nb-header">
+									<h1 class="major">Past Projects</h1>
+								</div>
+								
+								<h2 class="minor">"Who's In It?" The Movie cast guessing game (2017)</h2>
+								<div class="nb-image-row nb-logo-row">
+									<span class="nb-row-image icon"><img src="images/icons8-react-native-50.png" alt=""/></span>
+								</div>
+
+								<span class="image fit"><img src="images/whosinit.gif" alt="" /></span>
+								<p>"Who's In It?"" is a movie cast matching game I built while teaching myself <a href="https://reactjs.org/" target="_blank">React.js</a> in 2017. Players search for a movie by title, select from the search results, and see a group of five cast member headshots on the gameboard. They must match each image to a scrambled list of names to win the game.</p>
+									
+								<p>React has fast become one of my favorite frameworks to work with, and building an interactive game that loads data from an API was a perfect challenge for learning the basics of the framework. Movie data is retrieved from <a href="https://www.themoviedb.org/documentation/api" target="_blank">The Movie Database API.</a> You can play the game <a href="https://whos-init.herokuapp.com/" target="_blank">here.</a></p>
+
+								<h2 class="minor">F1 racing stats API: Ruby Gem wrapper (2017)</h2>
+								<div class="nb-image-row nb-logo-row">
+									<span class="nb-row-image icon"><img src="images/icons8-ruby-programming-language-50.png" alt="" /></span>
+								</div>
+
+								<img src="images/ergastf1.png" class="image fit" alt="" />
+
+								<p>Formula One racing has never been very popular in the United States, but it's been one of my nerdier interests since I was a little kid, going up to Montreal to see the Canadian Grand Prix. I love the technology and engineering challenge the teams are faced with, and I know way too much about the sport's history. So when I discovered the <a href="http://ergast.com/mrd/" target="_blank">Ergast F1 stats API</a>, I knew I had to use it in a project.</p>
+
+								<p>Working with APIs was one of the first aspects of software development I really enjoyed, and nobody had written a Ruby wrapper for the Ergast API at the time, so I decided to build my own as a Ruby Gem package. As of Spring 2020, it's been downloaded over <a href="https://rubygems.org/gems/ergast_f1" target="_blank">650 times.</a></p>
+
+								<p>The source code is hosted on GitHub <a href="https://github.com/NB28VT/ergast_f1-ruby" target="_blank">here.</a></p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About Me</h2>
+
+								<span class="image main"><img src="images/headshot.png" alt="" /></span>
+
+
+								<p>I've been writing code since before the day I was born. I mastered COBOL and Visual Basic before I could walk, had a full command of Java by the third grade, and convinced some guy named Matz to call his new programming language "Ruby" before I could legally drive.</p>
+
+								<p>Just kidding.</p>
+								
+								<p>The truth is, software engineering is my second career. Until 2014 I was an aspiring journalist in my home state of Vermont, writing award-winning work for a critically-acclaimed newspaper in the town of Stowe. After a few years of blood, sweat, deadlines, granola bars and Red Bull, it was time to take my skills to a larger organization, and one I had hoped was bucking industry trends by embracing the web instead of running from it.</p> 
+								
+								<p>It should come as no surprise that there wasn't much out there. Big newspapers were laying off writers left and right, and, frustratingly, the industry as a whole continued to ignore and even resist the potential of the web. I landed in Boston editing small town magazines for a large corporation. In a convenient twist of fate, I and hundreds of others in the same role around the country were laid off that spring.</p>
+								
+								<p>In retrospect, learning to code was an obvious next step. My father was an engineer, and I've been fascinated by electronics, technology and problem solving since I was very young. But I had wrongly assumed I had missed my chance by not going to college for computer science.</p> 
+								
+								<p>It was after picking up <a href="https://learncodethehardway.org/python/" target="_blank">Zed Shaw's "Learn Python the Hard Way"</a> on a tip from a friend of a friend that I knew I was wrong. Not only did writing code suit my way of thinking, I became obsessed with it, spending hours a day at a local coffee shop writing scripts and building games.</p>
+								
+								<p>That fall, I went to a Ruby on Rails bootcamp, and I've been understanding programming memes ever since.</p>
+								
+								<p>In my roughly five years in the industry I've worked for a handful of Boston start-ups taking on all sorts of interesting challenges, from API integrations to re-architecting legacy code to working closely with product and support teams. I've always enjoyed the "people" side of software as much as the engineering - solving challenges together as a team, meeting with stakeholders, and iterating on ideas.</p>
+									
+								<p>My background as a journalist has served me well thus far in my coding career, where communication skills and perseverance have proven equally important. I can't imagine doing anything else.</p>
+							</article>
+
+						<!-- Resume -->
+							<article id="resume">
+								<h1 class="major">Resume</h2>
+								<!-- TODO: download link -->
+								<h2 class="minor">Senior Software Engineer </h2>
+								<h3 class="minor">ProfitWell, Boston, MA, October 2018 – April 2020</h3>
+								<div class="nb-icon-row">
+									<span class="nb-row-image icon"><img src="images/icons8-typescript-50-2.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/icons8-react-native-50.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/icons8-python-50.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/icons8-django-50.png" alt="" /></span>
+								</div>
+
+								<ul>
+									<li>Cut need for thousands of dollars in monthly database charges and delivered lightning fast in-app search to customers by rearchitecting inefficient search feature with the Elasticsearch library. Allows ProfitWell’s customers, subscription-based service companies, near-instant text search and filtering of their subscription customer data from Stripe, Braintree and other payment APIs. Opens up feature to larger clients who had too much data to use old, SQL-based system. (Python, Django).</li>
+									<li>Improved ability to pass security audits with large clients by adding two-factor authentication to app login. In use by over 400 accounts, feature allows users to scan a QR code into their phone and generate one-time login passcodes. Python/Django (API, caching, encryption, and test suite); React.js/TypeScript (front end UX).</li>
+									<li>Preserved thousands of dollars in monthly revenue from European customers by updating “Retain” payment recovery integration with Zuora to meet new EU security mandate. Zuora API amongst the hardest in ProfitWell’s system to work with. (Python)</li>
+									<li>Worked closely with remote engineering team in Rosario, Argentina on a daily basis.</li>
+								</ul>
+
+								<h2 class="minor">Software Engineer</h2>
+								<h3 class="minor">3Play Media, Boston, MA	May 2015 – August 2018</h3>
+								<div class="nb-icon-row">
+									<span class="nb-row-image icon"><img src="images/rails-logo.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/jquery-logo.png" alt="" /></span>
+
+								</div>
+
+								<ul>
+									<li>Enabled sales team to onboard new clients in the entertainment, government and academic sectors by building captioning integrations with eight online video platforms. 600+ customers linked via Facebook, Vimeo, Wistia, Brightcove and more. (Ruby)</li>
+									<li>Reduced development and operations team testing time by introducing automated testing with RSpec, FactoryBot, and VCR.</li>
+									<li>Presented coding basics course to sales, marketing, and support teams, improving communication with the development team.</li>
+								</ul>
+								
+								<h2 class="minor">Engineering Apprentice</h2>
+								<h3 class="minor">Launch Academy, Boston, MA Fall/Winter 2014</h3>
+								<div class="nb-icon-row">
+									<span class="nb-row-image icon"><img src="images/icons8-ruby-programming-language-50.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/icons8-javascript-50.png" alt="" /></span>
+									<span class="nb-row-image icon"><img src="images/rails-logo.png" alt="" /></span>
+								</div>
+
+								<ul>
+									<li>Ten-week software boot camp. Personal project: "Beerica", a mapping of breweries around the United States with responsive design for desktop and mobile. (Ruby on Rails, Google Maps JavaScript API, Highcharts, and Zurb Foundation).</li>
+								</ul>
+
+								<h2 class="minor">Publication Manager</h2>
+								<h3 class="minor">Hibu Inc. (Remote/Massachusetts)</h3>
+								<h3 class="minor">October 2013 – May 2014</h3>
+								<ul>
+									<li>Oversaw production, content editing and layout for magazines in Marshfield, Pembroke, Hingham and Hanover, Massachusetts.</li>
+								</ul>
+
+								<h2 class="minor">News Reporter</h2>
+								<h3 class="minor">Stowe Reporter, Stowe, VT</h3>
+								<h3 class="minor">June 2009 – October 2013</h3>
+								<ul>
+									<li>2010 Rookie of the Year for both the New England Newspaper and Press Association and the Vermont Press Association.</li>
+									<li>Awarded 2013 New England First Amendment Coalition Fellowship for work in investigative, government and business reporting.</li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; 2020 Nathan Burgess. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
