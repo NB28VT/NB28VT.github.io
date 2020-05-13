@@ -710,12 +710,13 @@ input, select, textarea {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
+			/* justify-content: center; */
 			margin-bottom: 40px;
 		}
 
 		.nb-screenshot-row img {
 			/* height: 500px; */
-			max-height: 500px;
+			max-height: 275px;
 			/* min-height: 360px; */
 		}
 
