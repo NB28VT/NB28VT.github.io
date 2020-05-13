@@ -704,6 +704,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.nb-headshot img {
+			max-height: 400px;
+			width: auto;
+			height: auto;
+		}
+
 		/* NB custom */
 		.nb-screenshot-row {
 			width: 100%;
@@ -714,9 +720,7 @@ input, select, textarea {
 		}
 
 		.nb-screenshot-row img {
-			/* height: 500px; */
-			max-height: 500px;
-			/* min-height: 360px; */
+			max-height: 350px;
 		}
 
 		.nb-icon-row {
