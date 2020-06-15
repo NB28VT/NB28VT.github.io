@@ -66,7 +66,7 @@
 			}
 
 	// Main.
-		var	delay = 10,
+		var delay = 100,
 			locked = false;
 
 		// Methods.
@@ -266,7 +266,6 @@
 
 						// Unmark as visible.
 							setTimeout(function() {
-
 								$body.removeClass('is-article-visible');
 
 								// Window stuff.
